@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import Home from '../Screens/Home.jsx';
-import MealsScreen from '../Screens/MealsScreen.jsx';
+import Home from '../screens/Home.jsx';
+import MealsScreen from '../screens/MealsScreen.jsx';
 
 //Pages
 import BreakFast from '../pages/BreakFast.jsx';

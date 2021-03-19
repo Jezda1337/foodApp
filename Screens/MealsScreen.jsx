@@ -5,7 +5,12 @@ import MealsCard from "../components/MealsCard";
 const MealsScreen = ({ navigation }) => {
   return (
     <ScrollView>
-      <View style={{backgroundColor: 'linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244))'}}>
+      <View
+        style={{
+          backgroundColor:
+            "linear-gradient(to right, rgb(15,32,39), rgb(66, 134, 244))",
+        }}
+      >
         <MealsCard
           title="Breakfast"
           imagePath={require("../assets/webp/breakfast.webp")}
