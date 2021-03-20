@@ -1,18 +1,13 @@
 import React, { useState } from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  ImageBackground,
-} from "react-native";
+import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import { Input, Button } from "react-native-elements";
 import Icon from "react-native-vector-icons/FontAwesome";
 
-const Home = ({navigation}) => {
+const Home = ({ navigation }) => {
   const [cardNum, setCardNum] = useState(0);
   const validation = () => {
     if (cardNum === 123) {
-      navigation.navigate('Meals');
+      navigation.navigate("Cities");
     }
   };
 
