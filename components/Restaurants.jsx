@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, ScrollView } from "react-native";
+import { ScrollView } from "react-native";
 import { ListItem } from "react-native-elements";
 import Icon from "react-native-vector-icons/FontAwesome";
 
@@ -8,7 +8,9 @@ const Restaurants = ({ endPoint, navigation }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(`http://localhost:3000/${endPoint}`);
+      const response = await fetch(
+        `https://api.mocki.io/v1/2d6c73e0/${endPoint}`
+      );
       const json = await response.json();
       setRestaurants(json[endPoint]);
     };
@@ -21,7 +23,13 @@ const Restaurants = ({ endPoint, navigation }) => {
         <ListItem
           key={restaurant.id}
           bottomDivider
-          onPress={() => navigation.navigate("Food")}
+          onPress={() =>
+            navigation.navigate("Food", {
+              name: restaurant.name,
+              address: restaurant.adresa,
+              phone: restaurant.telefon,
+            })
+          }
         >
           <ListItem.Content
             style={{

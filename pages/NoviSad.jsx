@@ -1,17 +1,8 @@
 import React from "react";
-
-import { StyleSheet } from "react-native";
-
 import Restaurants from "../components/Restaurants";
 
-const NoviSad = () => {
-  return <Restaurants endPoint="ns" />;
+const NoviSad = ({ navigation }) => {
+  return <Restaurants endPoint="ns" navigation={navigation} />;
 };
 
 export default NoviSad;
-
-const styles = StyleSheet.create({
-  btn: {
-    marginVertical: 20,
-  },
-});
