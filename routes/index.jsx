@@ -8,6 +8,8 @@ import Beograd from "../pages/Beograd.jsx";
 import NoviSad from "../pages/NoviSad.jsx";
 import Nis from "../pages/Nis.jsx";
 
+import Food from "../components/Food";
+
 const Stack = createStackNavigator();
 
 const Routes = () => {
@@ -40,6 +42,8 @@ const Routes = () => {
         name="Nis"
         component={Nis}
       />
+
+      <Stack.Screen name="Food" component={Food} />
     </Stack.Navigator>
   );
 };

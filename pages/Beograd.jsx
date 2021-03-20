@@ -4,8 +4,8 @@ import { StyleSheet } from "react-native";
 
 import Restaurants from "../components/Restaurants";
 
-const Beograd = () => {
-  return <Restaurants endPoint="bg" />;
+const Beograd = ({ navigation }) => {
+  return <Restaurants endPoint="bg" navigation={navigation} />;
 };
 
 export default Beograd;

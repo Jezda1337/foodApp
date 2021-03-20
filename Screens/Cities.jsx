@@ -1,5 +1,5 @@
 import React from "react";
-import { ScrollView, StyleSheet, Text, View } from "react-native";
+import { ScrollView, StyleSheet, View } from "react-native";
 import CityCard from "../components/CityCard";
 
 const Cities = ({ navigation }) => {
@@ -34,5 +34,3 @@ const Cities = ({ navigation }) => {
 };
 
 export default Cities;
-
-const styles = StyleSheet.create({});
