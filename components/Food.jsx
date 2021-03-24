@@ -20,7 +20,7 @@ const Food = ({ route }) => {
   }, [name]);
 
   console.log(data);
-  console.log(name);
+  // console.log(name);
   return (
     <View>
       <Tile
