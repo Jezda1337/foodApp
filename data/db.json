@@ -138,3 +138,96 @@
     }
   ]
 }
+
+
+
+{
+  "karaburma":[
+    {
+      "breakfast": [
+        {
+          "id": 1,
+          "meal": "meal-1"
+        },
+        {
+          "id":2,
+          "meal": "meal-2"
+        }
+      ],
+    
+    
+      "lunch":[
+        {
+          "id": 1,
+          "meal": "meal-1"
+        },
+        {
+          "id": 2,
+          "meal": "meal-2"
+        }
+      ],
+    
+    
+      "dinner": [
+        {
+          "id": 1,
+          "meal": "meal-1"
+        },
+        {
+          "id": 2,
+          "meal": "meal-2"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+{
+  "karaburma": [
+    {
+      "name": "breakfast",
+      "id": 1,
+      "meals": [
+        {
+          "meal": "meal-1",
+          "id": 1
+        },
+        {
+          "meal": "meal-2",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "name": "Lunch",
+      "id": 2,
+      "meals": [
+        {
+          "id": 1,
+          "meal": "meal-1"
+        },
+        {
+          "id": 2,
+          "meal": "meal-2"
+        }
+      ]
+    },
+    {
+      "name": "dinner",
+      "id": 3,
+      "meals": [
+        {
+          "id": 1,
+          "meal": "meal-1"
+        },
+        {
+          "id": 2,
+          "meal": "meal-2"
+        }
+      ]
+    }
+  ]
+}

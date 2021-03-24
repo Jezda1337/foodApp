@@ -1,6 +1,6 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import Home from "../screens/Home.jsx";
+// import Home from "../screens/Home.jsx";
 import Cities from "../screens/Cities.jsx";
 
 //Pages
@@ -14,12 +14,12 @@ const Stack = createStackNavigator();
 
 const Routes = () => {
   return (
-    <Stack.Navigator detachInactiveScreens="Home">
-      <Stack.Screen
+    <Stack.Navigator detachInactiveScreens="Cities">
+      {/* <Stack.Screen
         options={{ header: () => null }}
         name="Home"
         component={Home}
-      />
+      /> */}
       <Stack.Screen
         options={{ title: "Градови" }}
         name="Cities"
@@ -43,7 +43,11 @@ const Routes = () => {
         component={Nis}
       />
 
-      <Stack.Screen name="Food" component={Food} />
+      <Stack.Screen
+        options={({ route }) => ({ title: route.params.name })}
+        name="Food"
+        component={Food}
+      />
     </Stack.Navigator>
   );
 };
