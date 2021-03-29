@@ -8,7 +8,7 @@ import Beograd from "../pages/Beograd.jsx";
 import NoviSad from "../pages/NoviSad.jsx";
 import Nis from "../pages/Nis.jsx";
 
-import Food from "../components/Food";
+import Food from "../screens/Food";
 
 const Stack = createStackNavigator();
 
@@ -21,7 +21,13 @@ const Routes = () => {
         component={Home}
       /> */}
       <Stack.Screen
-        options={{ title: "Градови" }}
+        // options={{
+        //   title: "Градови",
+        //   headerTitleAlign: "center",
+        //   headerStyle: { backgroundColor: "#003B79" },
+        //   headerTitleStyle: { color: "white", fontSize: 30 },
+        // }}
+        options={{ header: () => null }}
         name="Cities"
         component={Cities}
       />

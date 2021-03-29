@@ -1,5 +1,5 @@
 import React from "react";
-import { ScrollView, StyleSheet, View } from "react-native";
+import { ScrollView, View } from "react-native";
 import CityCard from "../components/CityCard";
 
 const Cities = ({ navigation }) => {
@@ -7,8 +7,7 @@ const Cities = ({ navigation }) => {
     <ScrollView>
       <View
         style={{
-          backgroundColor:
-            "linear-gradient(to right, rgb(15,32,39), rgb(66, 134, 244))",
+          backgroundColor: "#003B79",
         }}
       >
         <CityCard

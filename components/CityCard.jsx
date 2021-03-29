@@ -8,7 +8,6 @@ const CityCard = ({ title, imagePath, page }) => {
       style={{
         marginHorizontal: 20,
         marginVertical: 10,
-        backgroundColor: "red",
         borderRadius: 20,
       }}
     >
@@ -17,9 +16,9 @@ const CityCard = ({ title, imagePath, page }) => {
         title={title}
         titleStyle={{
           fontSize: 50,
-          color: "#f3f169",
+          color: "#FFF00F",
           fontWeight: "bold",
-          textShadowColor: "#000",
+          textShadowColor: "#2e4750",
           textShadowOffset: { width: 3, height: 3 },
           textShadowRadius: 50,
         }}
@@ -27,16 +26,15 @@ const CityCard = ({ title, imagePath, page }) => {
         onPress={page}
         activeOpacity={0.4}
         onBlur
-        imageContainerStyle={{ width: "100%", borderRadius: 20 }}
+        imageContainerStyle={{ width: "100%", borderRadius: 10 }}
         containerStyle={{ width: "100%" }}
-        // height={100}
         overlayContainerStyle={{
-          backgroundColor: "rgba(0,0,0,.3)",
-          borderRadius: 20,
+          backgroundColor: "rgba(15, 17, 19,0.3)",
+          borderRadius: 10,
         }}
       />
     </View>
   );
 };
-
+// f6c90e
 export default CityCard;

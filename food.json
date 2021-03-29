@@ -1,8 +1,10 @@
 {
-  "Karaburma": [
+  "Карабурма": [
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -17,6 +19,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -31,6 +35,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -47,6 +53,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -61,6 +69,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -75,6 +85,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -91,6 +103,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -105,6 +119,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -119,6 +135,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -135,6 +153,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -149,6 +169,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -163,6 +185,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -179,6 +203,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -193,6 +219,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -207,6 +235,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -223,6 +253,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -237,6 +269,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -251,6 +285,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -267,6 +303,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -281,6 +319,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -295,6 +335,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -311,6 +353,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -325,6 +369,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -339,6 +385,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -355,6 +403,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -369,6 +419,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -383,6 +435,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -399,6 +453,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -413,6 +469,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -427,6 +485,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -443,6 +503,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -457,6 +519,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -471,6 +535,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -487,6 +553,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -501,6 +569,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -515,6 +585,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -531,6 +603,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -545,6 +619,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -559,6 +635,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -575,6 +653,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -589,6 +669,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -603,6 +685,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -619,6 +703,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -633,6 +719,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -647,6 +735,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -663,6 +753,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -677,6 +769,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -691,6 +785,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -707,6 +803,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -721,6 +819,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -735,6 +835,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -751,6 +853,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -765,6 +869,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -779,6 +885,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -795,6 +903,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -809,6 +919,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -823,6 +935,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -839,6 +953,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -853,6 +969,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -867,6 +985,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -883,6 +1003,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -897,6 +1019,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -911,6 +1035,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -927,6 +1053,8 @@
     {
       "id": 1,
       "name": "Доручак",
+      "price": "40дин / 95дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -941,6 +1069,8 @@
     {
       "id": 2,
       "name": "Ручак",
+      "price": "72дин / 205дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
@@ -955,6 +1085,8 @@
     {
       "id": 3,
       "name": "Вечера",
+      "price": "59дин / 175дин",
+      "image": "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg",
       "meals": [
         {
           "id": 1,
