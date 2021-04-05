@@ -11,7 +11,7 @@ const Restaurants = ({ endPoint, navigation }) => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        `https://api.mocki.io/v1/2d6c73e0/${endPoint}`
+        `https://api.mocki.io/v1/df9e7e1a/${endPoint}`
       );
       const json = await response.json();
       setRestaurants(json[endPoint]);
