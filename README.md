@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center"><img src="assets/logo.png"/></div>
 
 ---
@@ -30,3 +31,12 @@
 ---
 
 
+=======
+# foodApp
+
+
+:fire:
+
+
+![capture](https://media.giphy.com/media/fnLwSQ4U5oahz5A7Ju/giphy.gif)
+>>>>>>> 539ee3d19980a285de2a6586f829371e14de12a7
