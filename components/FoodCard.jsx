@@ -4,7 +4,6 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 
 const FoodCard = (props) => {
-  console.log(props.image);
   return (
         <View style={styles.container}>
           <ImageBackground source={props.image} style={styles.image}>
@@ -22,8 +21,6 @@ const FoodCard = (props) => {
   );
 };
 
-// `${props?.image}`
-
 export default FoodCard;
 
 const styles = StyleSheet.create({
@@ -35,7 +32,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'flex-end',
     justifyContent: 'space-between',
-    paddingBottom: 5
+    paddingBottom: 5,
   },
   image: {
     flex: 1,

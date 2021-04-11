@@ -36,5 +36,4 @@ const CityCard = ({ title, imagePath, page }) => {
     </View>
   );
 };
-// f6c90e
 export default CityCard;

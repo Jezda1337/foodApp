@@ -11,16 +11,16 @@ const Restaurants = ({ endPoint, navigation }) => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        `https://api.mocki.io/v1/df9e7e1a/${endPoint}`
+        `https://food-app-data.loca.lt/${endPoint}`
       );
       const json = await response.json();
-      setRestaurants(json[endPoint]);
+      setRestaurants(json);
 
       setLoad(false);
     };
     fetchData();
-  }, []);
-
+  }, [endPoint]);
+  
   return (
     <View>
       {isLoad ? (
