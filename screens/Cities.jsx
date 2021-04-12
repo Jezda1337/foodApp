@@ -7,7 +7,7 @@ const Cities = ({ navigation }) => {
     <ScrollView>
       <View
         style={{
-          backgroundColor: "#003B79",
+          backgroundColor: "#003566",
         }}
       >
         <CityCard

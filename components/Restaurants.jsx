@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ScrollView, View } from "react-native";
+import { ScrollView, View, StyleSheet } from "react-native";
 import { ListItem } from "react-native-elements";
 import Icon from "react-native-vector-icons/FontAwesome";
 import Loading from "./Loading";
@@ -22,13 +22,14 @@ const Restaurants = ({ endPoint, navigation }) => {
   }, [endPoint]);
   
   return (
-    <View>
+    <View style={styles.container}>
       {isLoad ? (
         <Loading />
       ) : (
         <ScrollView>
           {restaurants.map((restaurant) => (
             <ListItem
+              containerStyle={{backgroundColor: '#003049'}}
               key={restaurant.id}
               bottomDivider
               onPress={() =>
@@ -46,10 +47,10 @@ const Restaurants = ({ endPoint, navigation }) => {
                   alignItems: "center",
                 }}
               >
-                <ListItem.Title style={{ fontSize: 20, paddingVertical: 20 }}>
+                <ListItem.Title style={styles.title}>
                   {restaurant.name}
                 </ListItem.Title>
-                <Icon name="angle-right" size={20} />
+                <Icon name="angle-right" size={30} color='#ffea00'/>
               </ListItem.Content>
             </ListItem>
           ))}
@@ -60,3 +61,15 @@ const Restaurants = ({ endPoint, navigation }) => {
 };
 
 export default Restaurants;
+
+const styles = StyleSheet.create({
+  title: {
+    fontSize: 22,
+    paddingVertical: 20,
+    color: '#ffea00'
+  },
+  container: {
+    backgroundColor: '#003049',
+    height: '100%'
+  }
+})

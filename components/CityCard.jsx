@@ -1,15 +1,11 @@
 import React from "react";
-import { View } from "react-native";
+import { View, StyleSheet } from "react-native";
 import { Tile } from "react-native-elements";
 
 const CityCard = ({ title, imagePath, page }) => {
   return (
     <View
-      style={{
-        marginHorizontal: 20,
-        marginVertical: 10,
-        borderRadius: 20,
-      }}
+      style={styles.container}
     >
       <Tile
         imageSrc={imagePath}
@@ -20,7 +16,7 @@ const CityCard = ({ title, imagePath, page }) => {
           fontWeight: "bold",
           textShadowColor: "#2e4750",
           textShadowOffset: { width: 3, height: 3 },
-          textShadowRadius: 50,
+          // textShadowRadius: ,
         }}
         featured
         onPress={page}
@@ -29,11 +25,22 @@ const CityCard = ({ title, imagePath, page }) => {
         imageContainerStyle={{ width: "100%", borderRadius: 10 }}
         containerStyle={{ width: "100%" }}
         overlayContainerStyle={{
-          backgroundColor: "rgba(15, 17, 19,0.3)",
+          backgroundColor: "rgba(15, 17, 19,0.5)",
           borderRadius: 10,
+          borderWidth: 1,
+          borderColor: '#ffea00'
         }}
       />
     </View>
   );
 };
 export default CityCard;
+
+
+const styles = StyleSheet.create({
+  container: {
+    marginHorizontal: 20,
+    marginVertical: 10,
+    borderRadius: 20,
+  }
+})

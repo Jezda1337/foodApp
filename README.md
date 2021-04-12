@@ -17,8 +17,8 @@
 ## :memo: Instalacija:
 ###### Instalacija potrebnih programa za pokretanje servera.
 ```bash
-    $ npm -i -g json-server 
-    $ npm -i -g localtunnel 
+    $ npm install -g json-server 
+    $ npm install -g localtunnel 
 ```
 
 ###### Nakon instalacije servera, potrebno je pokrenuti sledeće komande kako bi naš server bio upotrebljiv.
@@ -29,7 +29,7 @@
 ###### Pošto smo uspešno uspeli da pokrenemo naš lokalni server, prelazimo na preuzimanje aplikacije i podešavanje iste.
 ```bash
     $ git clone https://github.com/Jezda1337/foodApp && cd foodApp
-    $ npm -i #install dependencies from package.json 
+    $ npm install #install dependencies from package.json 
 ```
 
 
