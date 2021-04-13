@@ -33,7 +33,7 @@ const Food = ({ route }) => {
   }, [name]);
 
   return (
-    <View>
+    <View style={{backgroundColor: '#003049'}}>
       <View>
         {isLoad ? (
           <Loading />
