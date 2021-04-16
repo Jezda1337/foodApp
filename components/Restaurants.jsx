@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ScrollView, View, StyleSheet } from "react-native";
 import { ListItem } from "react-native-elements";
 import Icon from "react-native-vector-icons/FontAwesome";
+
 import Loading from "./Loading";
 
 const Restaurants = ({ endPoint, navigation }) => {
@@ -9,16 +10,21 @@ const Restaurants = ({ endPoint, navigation }) => {
   const [isLoad, setLoad] = useState(true);
 
   useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch(
-        `https://food-app-data.loca.lt/${endPoint}`
-      );
-      const json = await response.json();
-      setRestaurants(json);
-
-      setLoad(false);
-    };
-    fetchData();
+    // handle the error
+    try {
+      const fetchData = async () => {
+        const response = await fetch(
+          `https://food-app-data.loca.lt/${endPoint}`
+        );
+        const json = await response.json();
+        setRestaurants(json);
+  
+        setLoad(false);
+      };
+      fetchData();
+    } catch(err) {
+      alert(err.message);
+    }
   }, [endPoint]);
   
   return (
@@ -27,6 +33,7 @@ const Restaurants = ({ endPoint, navigation }) => {
         <Loading />
       ) : (
         <ScrollView>
+          {/* maping through the restaurants and make list */}
           {restaurants.map((restaurant) => (
             <ListItem
               containerStyle={{backgroundColor: '#003049'}}

@@ -26,7 +26,7 @@ const Food = ({ route }) => {
 
         setLoad(false);
       } catch (error) {
-        console.log(error.message);
+        alert(error.message);
       }
     };
     getData();

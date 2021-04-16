@@ -12,19 +12,19 @@ const Cities = ({ navigation }) => {
       >
         <CityCard
           title="Београд"
-          imagePath={require("../assets/Beograd.jpg")}
+          imagePath={require("../assets/webp/Beograd.webp")}
           page={() => {
             navigation.navigate("Beograd");
           }}
         />
         <CityCard
           title="Нови Сад"
-          imagePath={require("../assets/NoviSad.jpg")}
+          imagePath={require("../assets/webp/NoviSad.webp")}
           page={() => navigation.navigate("NoviSad")}
         />
         <CityCard
           title="Ниш"
-          imagePath={require("../assets/Panorama_Nisa.jpg")}
+          imagePath={require("../assets/webp/Panorama_Nisa.webp")}
           page={() => navigation.navigate("Nis")}
         />
       </View>
