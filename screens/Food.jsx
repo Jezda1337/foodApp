@@ -6,11 +6,11 @@ import Loading from "../components/Loading";
 
 import FoodCard from '../components/FoodCard';
 
-const images = [
-  {image:require('../assets/webp/breakfast.webp')},
-  {image:require('../assets/webp/lunch.webp')},
-  {image:require('../assets/webp/dinner.webp')}
-];
+// const images = [
+//   {image:require('../assets/webp/breakfast.webp')},
+//   {image:require('../assets/webp/lunch.webp')},
+//   {image:require('../assets/webp/dinner.webp')}
+// ];
 
 
 const Food = ({ route }) => {
@@ -38,9 +38,9 @@ const Food = ({ route }) => {
         {isLoad ? (
           <Loading />
         ) : (
-          <ScrollView style={{}}>
+          <ScrollView>
             {data?.map((card, index) => (
-              <FoodCard price={card.price} meals={card?.meals?.map((meal) => meal.meal)} key={card.id} image={images[index].image} food={card.name}/>
+              <FoodCard price={card.price} meals={card?.meals?.map((meal) => meal.meal)} key={card.id} image={card.image} food={card.name}/>
             ))}
           </ScrollView>
         )}

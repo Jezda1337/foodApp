@@ -6,7 +6,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 const FoodCard = (props) => {
   return (
         <View style={styles.container}>
-          <ImageBackground source={props.image} style={styles.image}>
+          <ImageBackground source={{uri: props.image}} style={styles.image} imageStyle={{borderRadius: 20}}>
             <LinearGradient colors={['transparent', '#111']} style={styles.linearGradient}>
               <View style={{maxWidth: '55%'}}>
                 {props.meals?.map((meal, index)=><Text key={index} style={[styles.text, {width: '100%'}]}>{meal}</Text>)}
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingLeft: 15,
     paddingRight: 15,
-    borderRadius: 5,
+    borderRadius: 20,
     flexDirection: 'row',
     alignItems: 'flex-end',
     justifyContent: 'space-between',
@@ -37,7 +37,8 @@ const styles = StyleSheet.create({
   image: {
     flex: 1,
     resizeMode: "cover",
-    justifyContent: "flex-end"
+    justifyContent: "flex-end",
+    borderRadius: 20
   },
   text: {
     color: "white",
